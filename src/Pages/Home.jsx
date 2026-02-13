@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-import TodoItem from "../components/TodoItem";
+import TodoItem from "../Components/TodoItem";
+
 
 function Home() {
   const [task, setTask] = useState("");
